@@ -16,6 +16,9 @@ app.listen(3000, function () {
 app.get('/Jogo2', function(req, res){
 	res.render('qualquer')
 })
+app.get('/', function(req, res){
+	res.render('qualquer')
+})
 
 app.get('/RotaJogo', function(req, res){
 	res.render('teste')

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+#header .background{
+    background: linear-gradient(0, #7c1b1b, #831212);
+    width: 100vw;
+    height: 6vw;
+    border-bottom-style: outset;
+    border-color: rgb(255, 255, 255);
+    border-width: 5px;
+}
+#header .background .img{
+    width: 6vw;
+    margin-left: 1vw;
+}
+
+#header .background ul{
+    position: relative;
+    top: 0.8vw;
+    float: right;
+    color: white;
+    font-size: 4vw;
+    padding-right: 10px;
+}
+#header .background .menu:hover{
+    color: rgb(177, 177, 177);
+}
