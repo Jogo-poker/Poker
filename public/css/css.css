@@ -5,9 +5,7 @@
     background: linear-gradient(0, #7c1b1b, #831212);
     width: 100vw;
     height: 6vw;
-    border-bottom-style: outset;
-    border-color: rgb(255, 255, 255);
-    border-width: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2)
 }
 #header .background .img{
     width: 6vw;
@@ -24,4 +22,33 @@
 }
 #header .background .menu:hover{
     color: rgb(177, 177, 177);
+}
+#header .opt{
+    width: 15ch;
+    height: 15ch;
+    position: absolute;
+    right: 1px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgba(0, 0, 0, 0.309);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-style: solid;
+    border-top-style: none;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.5);
+    
+}
+#header .opt form button{
+    width: 100%;
+    height: 5ch;
+    margin-top: 2px;
+    background-color: rgba(0, 0, 0, 10);
+    border-style: none;
+}
+#header .opt form .Exit{
+    border-top-style: solid;
+}
+#header .opt form button:hover{
+    background-color: rgba(0, 0, 0, 0.405);
 }
