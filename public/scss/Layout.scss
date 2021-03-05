@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+
+#Header {
+    .background{
+        background: linear-gradient(0, #7c1b1b, #831212);
+        width: 100vw;
+        height: 6vw;
+        box-shadow: -.9vw 0 1vw inset rgba(0, 0, 0, .2);
+        .img{
+            width: 6vw;
+            margin-left: 1vw;
+        }
+        #Icon {
+            height: 6vw;
+            width: 5vw;
+            display: flex;
+            top: 0;
+            right: 0;
+            background-color: green;
+            position: absolute;
+            color: white;
+            font-size: 4vw;
+            li {
+                margin-top: .8vw;
+                list-style: none;
+                li {
+                    font: normal 2vw Agency FB;
+                    text-align: center;
+                    cursor: pointer;
+                    padding: 1vw;
+                    border: dashed .1vw black;
+                    color: black;
+                    transition: all .2s ease;
+                    &:hover {
+                        border: dashed .3vw black;
+                        padding: 1.5;
+                    }
+                }
+                &:hover ul {
+                    display: block;
+                }
+            }
+            ul {
+                position: absolute;
+                top: 5.1vw;
+                right: .1vw;
+                display: none;
+            }
+        }
+        .img:hover {
+            color: rgb(177, 177, 177);
+            cursor: pointer;
+        }
+    }
+}

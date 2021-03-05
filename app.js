@@ -8,18 +8,18 @@ const exphbs = require('express-handlebars');
 	app.engine('hbs', exphbs({defaultLayout: 'main', extname: '.hbs'}));
 	app.set('view engine', 'hbs');
 
+app.get('/', function(req, res){
+	res.render('Home');
+});
+
+app.get('/Account/:Nick', function(req, res){
+	res.render('Home', {nickname: req.params.Nick});
+});
+
+app.get('/Game', function(req, res){
+	
+});
 
 app.listen(3000, function () {
-	console.log(__dirname)
-})
-
-app.get('/Jogo2', function(req, res){
-	res.render('qualquer')
-})
-app.get('/', function(req, res){
-	res.render('qualquer')
-})
-
-app.get('/RotaJogo', function(req, res){
-	res.render('teste')
-})
+	console.log("Servidor Rodando Na Porta 3000");
+});
