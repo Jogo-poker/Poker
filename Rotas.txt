@@ -1,0 +1,13 @@
+/ Tela Inicial (index)
+
+// Tela de Game -> Mesa, Cartas, Outros Jogadores, Ranking(peer user), Fichas(Créditos) 
+
+// Perfil Usuário -> Suas Fichas, 
+/// Histórico de partidas -> Quantas fichas perdidas
+/// Configs de User -> Email, Nome, Foto, Senha && Recuperar Senha.
+/// Tela De Ranking -> Partidas Ganhas, Perdidas, Sequência de vitórias, quantidade de fichas 
+
+// Registro – Login -> Entrar com facebook, instagram, gmail.
+
+// Loja -> Comprar fichas, Vender fichas.
+ 

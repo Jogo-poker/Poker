@@ -1,0 +1,25 @@
+{
+  "name": "poker",
+  "version": "1.0.0",
+  "description": "Projeto portfolio, poker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jogo-poker/Poker.git"
+  },
+  "author": "PokerTeam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jogo-poker/Poker/issues"
+  },
+  "homepage": "https://github.com/Jogo-poker/Poker#readme",
+  "dependencies": {
+    "consolidate": "^0.16.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "mustache": "^4.1.0"
+  }
+}
