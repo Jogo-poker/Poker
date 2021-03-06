@@ -14,9 +14,21 @@
             width: 6vw;
             margin-left: 1vw;
         }
-        .img_nome{
-            width: 20vw;
-            margin-left: 32vw; 
+        .Directories{
+            color: white;
+            text-decoration: none;
+            font-size: 1.8vw;
+            margin-right: 3vw;
+            position: relative;
+            left: 8vw;
+            bottom: 2.5vw;
+            border-left-style: solid;
+            border-width: .1vw;
+            padding-left: 1vw;
+            &:hover{
+                color: rgba(255, 255, 255, 0.5);
+            }
+            
         }
         #Icon {
             height: 6vw;
