@@ -35,9 +35,9 @@
                     font: normal 2vw Agency FB;
                     text-align: center;
                     padding: 1vw;
-                    color: black;
+                    color: rgb(255, 255, 255);
                     &:hover {
-                        background-color: rgba(0, 0, 0, 0.5);
+                        background-color: #1f6feb;
                         padding: 1.5;
                     }
                 }
@@ -46,7 +46,7 @@
                 }
                 &:hover ul {
                     display: block;
-                    background: linear-gradient(0, #00000085, #5a303085);
+                    background-color: #21262d;
                     padding: 0;
                     margin-top: .9vw;
                     margin-right: .1vw;
@@ -55,15 +55,19 @@
                     border: solid .1vw rgb(0, 0, 0);
                     border-top-style: none;
                     li{
-                        width: 9vw;
-                        height: 3vw;
+                        width: 8vw;
+                        height: 1.5vw;
                         margin: 0;
+                        font-size: 1.5vw;
                         cursor: pointer;
                         &:hover{
                             color: rgb(255, 255, 255);
                         }
+                        &:hover > i{
+                            color: white;
+                        }
                         i{
-                            color: rgb(204, 204, 204);
+                            color: #1f6be0;
                         }
                     }
                     .Account{
