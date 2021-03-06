@@ -12,6 +12,13 @@ app.get('/', function(req, res){
 	res.render('Home');
 });
 
+app.get('/Mesas', function(req, res){
+	res.render('Mesas');
+});
+app.get('/Loja', function(req, res){
+	res.render('Loja');
+});
+
 app.get('/Account/:Nick', function(req, res){
 	res.render('Home', {nickname: req.params.Nick});
 });
