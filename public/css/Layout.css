@@ -1,1 +1,101 @@
-*{margin:0}#Header .background{background:linear-gradient(0, #7c1b1b, #831212);width:100vw;height:6vw;box-shadow:-0.9vw 0 1vw inset rgba(0,0,0,0.2)}#Header .background .img{width:6vw;margin-left:1vw}#Header .background #Icon{height:6vw;width:5vw;display:flex;top:0;right:0;background-color:green;position:absolute;color:white;font-size:4vw}#Header .background #Icon li{margin-top:.8vw;list-style:none}#Header .background #Icon li li{font:normal 2vw Agency FB;text-align:center;cursor:pointer;padding:1vw;border:dashed .1vw black;color:black;transition:all .2s ease}#Header .background #Icon li li:hover{border:dashed .3vw black;padding:1.5}#Header .background #Icon li:hover ul{display:block}#Header .background #Icon ul{position:absolute;top:5.1vw;right:.1vw;display:none}#Header .background .img:hover{color:#b1b1b1;cursor:pointer}
+* {
+  margin: 0;
+}
+
+#Header .background {
+  background: linear-gradient(0, #d12929, #960e0e);
+  width: 100vw;
+  height: 6vw;
+  box-shadow: -0.9vw 0 1vw inset rgba(0, 0, 0, 0.2);
+  border-bottom-style: solid;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+#Header .background .img {
+  width: 6vw;
+  margin-left: 1vw;
+}
+#Header .background .img_nome {
+  width: 20vw;
+  margin-left: 32vw;
+}
+#Header .background #Icon {
+  height: 6vw;
+  width: 5vw;
+  display: flex;
+  top: 0;
+  right: 0;
+  position: absolute;
+  color: white;
+  font-size: 4vw;
+}
+#Header .background #Icon li {
+  margin-top: 0.8vw;
+  list-style: none;
+  cursor: pointer;
+}
+#Header .background #Icon li li {
+  font: normal 2vw Agency FB;
+  text-align: center;
+  padding: 1vw;
+  color: black;
+}
+#Header .background #Icon li li:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1.5;
+}
+#Header .background #Icon li:hover i {
+  color: #c7c7c7;
+}
+#Header .background #Icon li:hover ul {
+  display: block;
+  background: linear-gradient(0, #00000085, #5a303085);
+  padding: 0;
+  margin-top: 0.9vw;
+  margin-right: 0.1vw;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: solid 0.1vw black;
+  border-top-style: none;
+}
+#Header .background #Icon li:hover ul li {
+  width: 9vw;
+  height: 3vw;
+  margin: 0;
+  cursor: pointer;
+}
+#Header .background #Icon li:hover ul li:hover {
+  color: white;
+}
+#Header .background #Icon li:hover ul li i {
+  color: #cccccc;
+}
+#Header .background #Icon li:hover ul .Account {
+  border-top: solid 1px rgba(0, 0, 0, 0.3);
+  margin-top: 2vw;
+}
+#Header .background #Icon li:hover ul .Options {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.3);
+}
+#Header .background #Icon li:hover ul .Exit {
+  border-top: solid 1px rgba(0, 0, 0, 0.3);
+  margin-top: 2vw;
+}
+#Header .background #Icon li:hover ul .Exit:hover {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+#Header .background #Icon ul {
+  position: absolute;
+  top: 5.1vw;
+  right: 0.1vw;
+  display: none;
+}
+#Header .background .img:hover {
+  cursor: pointer;
+}
+
+#section {
+  background-color: #a95a5a;
+}
+
+/*# sourceMappingURL=Layout.css.map */
