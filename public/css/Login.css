@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+section {
+  width: 100vw;
+  height: 20vw;
+  display: flex;
+  justify-content: center;
+}
+section div {
+  width: 30vw;
+  margin-top: 5vw;
+}
+section div div {
+  padding-bottom: 4vw;
+}
+section div div a {
+  color: #e9e9e9;
+  font-size: 1.5vw;
+  text-decoration: none;
+}
+section div div .Login {
+  margin-right: 2vw;
+  border-bottom: solid 0.25vw #307bc2;
+  padding-bottom: 0.3vw;
+}
+section div form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 2vw;
+}
+section div form input {
+  height: 2vw;
+  font-size: 1.5vw;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 0.2vw solid #979797;
+  margin-bottom: 4vw;
+  color: #757575;
+  padding-left: 0.5vw;
+}
+section div form .Pass {
+  margin-bottom: 2vw;
+}
+section div form a {
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: #979797;
+}
+section div form a:hover {
+  color: #bdbdbd;
+}
+section div form button {
+  width: 5vw;
+  margin-top: 2vw;
+  margin-left: 24.5vw;
+  font-size: 1.5vw;
+  border: none;
+  border-radius: 3vw;
+  width: 6vw;
+  height: 3vw;
+  background-color: #4d61d5;
+  color: gainsboro;
+}
+section div form button:hover {
+  background-color: #3f51b5;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=Login.css.map */

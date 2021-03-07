@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+section{
+    width: 100vw;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    div{
+        width: 30vw;
+        margin-top: 2vw;
+        div{
+            padding-bottom: 4vw;
+            a{
+                color: #e9e9e9;
+                font-size: 1.5vw;
+                text-decoration: none;
+            }
+            .Login{
+                margin-right: 2vw;
+            }
+            .Cadastrar{
+                border-bottom: solid .25vw rgb(48, 123, 194);
+                padding-bottom: .3vw;
+            }
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-size: 2vw;
+            input{
+                height: 2vw;
+                font-size: 1.5vw;
+                background-color: rgba(0, 0, 0, 0);
+                border: none;
+                border-bottom: .2vw solid rgb(151, 151, 151);
+                margin-bottom: 4vw;
+                color: #757575;
+                padding-left: .5vw;
+            }
+            .Pass{
+                margin-bottom: 2vw;
+            }
+            a{
+                font-size: 1.5vw;
+                text-decoration: none;
+                color: rgb(151, 151, 151);
+                &:hover{
+                    color: rgb(189, 189, 189);
+                }
+            }
+            button{
+                width: 5vw;
+                margin-top: 2vw;
+                margin-left: 22.4vw;
+                font-size: 1.5vw;
+                border: none;
+                border-radius: 3vw;
+                width: 8vw;
+                height: 3vw;
+                background-color: #4d61d5;
+                color: rgb(220, 220, 220);
+                &:hover{
+                    background-color: #3f51b5;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

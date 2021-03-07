@@ -18,6 +18,12 @@ app.get('/Jogar', function(req, res){
 app.get('/Loja', function(req, res){
 	res.render('Loja');
 });
+app.get('/Login', function(req, res){
+	res.render('Login');
+});
+app.get('/Cadastro', function(req, res){
+	res.render('Cadastro');
+});
 
 app.get('/Account/:Nick', function(req, res){
 	res.render('Home', {nickname: req.params.Nick});
