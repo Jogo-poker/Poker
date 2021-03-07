@@ -12,8 +12,8 @@ app.get('/', function(req, res){
 	res.render('Home');
 });
 
-app.get('/Mesas', function(req, res){
-	res.render('Mesas');
+app.get('/Jogar', function(req, res){
+	res.render('Jogar');
 });
 app.get('/Loja', function(req, res){
 	res.render('Loja');

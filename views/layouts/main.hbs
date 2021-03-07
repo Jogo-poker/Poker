@@ -3,32 +3,34 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width={{{body}}}, initial-scale=1.0">
+	<meta name="viewport" content="width=1, initial-scale=1.0">
 	<title>Poker</title>
+	<link rel="icon" href="/img/logo_site.png">
 	<link rel="stylesheet" href="/css/layout.css">
 	<script src="https://kit.fontawesome.com/4095fc3d99.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<header id="Header">
-		<div class="background">
+		<div>
 			<img title="JavaPoker" class="img" src="/img/logo_site.png">
 			<a class="Directories" href="/">Home</a>
-			<a class="Directories" href="/Mesas">Mesas</a>
+			<a class="Directories" href="/Jogar">Jogar</a>
 			<a class="Directories" href="/Loja">Loja</a>
 			<ul id="Icon">
-				<li>
+				<li tabindex="0">
 					<i class="fa fa-bars menu" aria-hidden="true"></i>
 					<ul>
-						<li class="Account" name="Account"><i class="fa fa-user-o" aria-hidden="true"></i> Account</li>
-						<li class="Options" name="Options"><i class="fa fa-cog" aria-hidden="true"></i> Options</li>
-						<li class="Exit" name="Exit"><i class="fa fa-sign-out" aria-hidden="true"></i> Exit</li>
+						<li tabindex="0" class="Account" name="Account"><i class="fa fa-user-o" aria-hidden="true"></i> Conta</li>
+						<li tabindex="0" class="Options" name="Options"><i class="fa fa-cog" aria-hidden="true"></i> Opções</li>
+						<li tabindex="0" class="Exit" name="Exit"><i class="fa fa-sign-out" aria-hidden="true"></i> Sair</li>
 					</ul>
 				</li>
 			</ul>
 		</div>
 	</header>
-	<section id="section">
-		{{{body}}}
-	</section>
+
+{{{body}}}
+	
 </body>
+<script src="/js/Main.js"></script>
 </html>
