@@ -1,0 +1,31 @@
+section{
+    display: flex;
+    justify-content: center;
+    div{
+        background-color: #30303069;
+        width: 90%;
+        height: 38vw;
+        .opt{
+            width: 15vw;
+            background-color: #21262d;
+            border-right: .2vw outset rgb(118, 118, 118);
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 1.5vw;
+                margin-top: .58vw;
+                height: 3vw;
+                padding-top: .6vw;
+                &:hover{
+                    border-right-style: solid;
+                    border-left-style: solid;
+                    background-color: #1d2227;
+                }
+            }
+            
+        }
+    }
+}

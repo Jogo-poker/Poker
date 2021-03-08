@@ -1,0 +1,32 @@
+section {
+  display: flex;
+  justify-content: center;
+}
+section div {
+  background-color: #30303069;
+  width: 90%;
+  height: 38vw;
+}
+section div .opt {
+  width: 15vw;
+  background-color: #21262d;
+  border-right: 0.2vw outset #767676;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+section div .opt a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5vw;
+  margin-top: 0.58vw;
+  height: 3vw;
+  padding-top: 0.6vw;
+}
+section div .opt a:hover {
+  border-right-style: solid;
+  border-left-style: solid;
+  background-color: #1d2227;
+}
+
+/*# sourceMappingURL=Conta.css.map */
