@@ -1,8 +1,9 @@
-const cons = require('consolidate');
-
-const express = require('express'),
-    app = express(),
+const cons = require('consolidate'),
+    express = require('express'),
+    app = express();
     exphbs = require('express-handlebars');
+    
+    require('./config/database');
     require('dotenv-safe').config();
 
     app.use(express.static(__dirname+'/public'))
@@ -10,7 +11,6 @@ const express = require('express'),
 
     app.engine('hbs', exphbs({defaultLayout: 'main', extname: '.hbs'}))
     app.set('view engine', 'hbs')
-
 
 app.listen(process.env.PORT, () => {
     console.log(' ---------------------- \n Servidor Rodando Na Porta \n ' +  process.env.PORT + '\n ----------------------');
