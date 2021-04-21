@@ -9,6 +9,17 @@
     <title>Poker_Hub</title>
 </head>
 <body>
+    <div id="TopMenu">
+        <h1>Essa é a Top Menu</h1>
+    </div>
+    
+    {{#each msg}}
+        {{> msg }}
+    {{/each}}
+
     {{{body}}}
+    <div id="Footer">
+        <h1>Esse é o Footer</h1>
+    </div>
 </body>
 </html>

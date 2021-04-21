@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 require('dotenv-safe').config();
 
 const uri = 'mongodb+srv://admin:'+process.env.MONGOPASS+'@cluster0.joqie.mongodb.net/teste';
-console.log(uri);
 
 mongoose.Promise = global.Promise;
 
