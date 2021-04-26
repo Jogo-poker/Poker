@@ -1,0 +1,82 @@
+*
+    margin: 0
+    padding: 0
+html, body
+    height:100%
+    background-color: rgb(24, 24, 24)
+
+header
+    .header
+        width: 100%
+        height: 6vw
+        background-color: #3b5ba5
+        display: grid
+        grid-template-columns: 1fr 10fr 1.3fr
+        div
+            width: 100%
+            height: 100%
+        .icon
+            display: flex
+            justify-content: center
+            
+            img
+                width: 80%
+                height: 6vw
+        .info  
+        .option
+            display: flex
+            justify-content: center
+            text-align: center
+            i
+                display: flex
+                align-items: center
+                font-size: 4vw
+                &:hover
+                    cursor: pointer
+        ul
+            position: absolute
+            right: 0
+            background-color: #21262D
+            color: #ededed
+            width: 12vw
+            height: auto    
+            border-radius: 0 0 0 .6vw  
+            display: none
+            margin: 6vw 0 0 0
+            li
+                width: 100%
+                height: 4vw
+                display: flex
+                justify-content: center
+                align-items: center
+                font-size: 1.8vw
+                cursor: pointer
+                &:hover
+                    background-color: #1F6FEB
+                    color: #ededed
+                &:hover > i
+                    color: #ededed
+                i
+                    color: white   
+                    margin-right: .5vw   
+                    color: #1F6BE0
+            .Account 
+                border-top: solid .2vw rgba(0, 0, 0, 0.3)
+                margin-top: 2vw
+            .Options 
+                border-bottom: solid .2vw rgba(0, 0, 0, 0.3)
+            .Exit 
+                border-top: solid .2vw rgba(0, 0, 0, 0.3)
+                margin-top: 2vw
+                &:hover 
+                    border-radius: 0 0 0 .6vw
+
+
+
+// footer
+//     div
+//         position: relative
+//         bottom: 0
+//         width: 100%
+//         height: 6vw
+//         background-color: #3b5ba5

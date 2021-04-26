@@ -6,20 +6,41 @@
     <link rel="stylesheet" type="text/css" href="CSS/reset.css">
     <link rel="stylesheet" type="text/css" href="CSS/main.css">
     <link rel="stylesheet" type="text/css" href="CSS/{{page}}">
+    <script src="JS/menu.js"></script>
+    <script src = "https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="https://kit.fontawesome.com/4095fc3d99.js" crossorigin="anonymous"></script>
     <title>Poker_Hub</title>
 </head>
 <body>
-    <div id="TopMenu">
-        <h1>Essa é a Top Menu</h1>
-    </div>
-    
-    {{#each msg}}
+    <header>
+        <div class="header">
+            <div class="icon">
+                <img src="/IMGS/logo_site.png" alt="">
+            </div>
+            <div class="info">
+
+            </div>
+            <div class="option">
+                <i class="fa fa-bars menu" aria-hidden="true"></i>
+            </div>
+            <ul class="menuRetratio">
+                <li tabindex="0" class="Account" name="Account"><i class="fa fa-user-o" aria-hidden="true"></i> Conta</li>
+                <li tabindex="0" class="Shop" name="Options"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Loja</li>
+                <li tabindex="0" class="Options" name="Options"><i class="fa fa-cog" aria-hidden="true"></i> Opções</li>
+                <li tabindex="0" class="Exit" name="Exit"><i class="fa fa-sign-out" aria-hidden="true"></i> Sair</li>
+            </ul>
+        </div>
+    </header>
+    {{!-- {{#each msg}}
         {{> msg }}
-    {{/each}}
+    {{/each}} --}}
 
     {{{body}}}
-    <div id="Footer">
-        <h1>Esse é o Footer</h1>
-    </div>
+
+    {{!-- <footer>
+        <div>
+
+        </div>
+    </footer> --}}
 </body>
 </html>

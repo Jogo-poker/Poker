@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js",
-    "sass": "node-sass public/sass -o public/css --output-style compressed -w ",
+    "sass": "sass --watch public/sass:public/css",
     "dev": "run-p sass start"
   },
   "author": "",
