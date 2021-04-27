@@ -21,3 +21,11 @@ function MenuRetratio(){
         }
     }
 }
+
+function redire(){
+    redireAccont();
+    function redireAccont(){
+        window.location.href = "/login";
+    }
+}
+

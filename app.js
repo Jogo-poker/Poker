@@ -32,6 +32,9 @@ app.use((req, res, next) => {
 app.get('/register', (req,res) => {
     res.render('Register');
 });
+app.get('/Login', (req,res) => {
+    res.render('Login');
+});
 
 app.get('/', (req,res) => {
     res.render('Home', { page: 'Home' });

@@ -1,7 +1,22 @@
-<form method="POST" action="/register_complete">
-    <input type="text" name="username" placeholder="username">
-    <input type="email" name="email" placeholder="email">
-    <input type="password" name="password" placeholder="password">
-    <input type="password" name="password2" placeholder="confirm password">
-    <button>register</button>
-</form>
+<link rel="stylesheet" type="text/css" href="CSS/Register.css">
+<section>
+    <div class="pai">
+        <div class="itens">
+            <a href="/login">Logar</a>
+            <a href="/register" style="border-bottom: solid .25vw #2D9CDB;">Cadastrar</a>
+        </div>   
+        <form method="POST" action="/register_complete">
+            <input type="text" name="username" id="user" placeholder="User" autocomplete="nickname">
+            <input type="email" name="email" id="e-mail" placeholder="E-mail" autocomplete="email">
+            <input type="password" name="password" id="pass" placeholder="Password" autocomplete="new-password">
+            <input type="password" name="password2" id="pass2" placeholder="Confirm Password" autocomplete="new-password">
+            <div class="RCS">
+                <a href="">Recuperar Senha</a>
+            </div>   
+            <div class="button">
+                <button>Registro</button>
+            </div>  
+            
+        </form>
+    </div>   
+</section>
