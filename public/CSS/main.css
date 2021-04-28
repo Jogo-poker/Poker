@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html, body {
@@ -26,6 +27,55 @@ header .header .icon {
 header .header .icon img {
   width: 80%;
   height: 6vw;
+  cursor: pointer;
+}
+header .header .info {
+  display: flex;
+  align-items: center;
+}
+header .header .info .pai {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 1vw;
+  cursor: pointer;
+  margin: 0 0 0 67vw;
+  width: 13vw;
+  height: 80%;
+  display: flex;
+  align-items: center;
+}
+header .header .info .pai:active {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+header .header .info .pai .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #E0E0E0;
+  margin: 0 0 0 0.2vw;
+}
+header .header .info .pai .icons .iconify {
+  font-size: 4.5vw;
+}
+header .header .info .pai .score {
+  width: 25vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 0 0 0.2vw;
+  color: #E0E0E0;
+  font-size: 1.2vw;
+}
+header .header .info .pai .score .name {
+  height: 30%;
+  display: flex;
+  align-items: center;
+}
+header .header .info .pai .score .reputation {
+  display: flex;
+  align-items: center;
+  height: 30%;
 }
 header .header .option {
   display: flex;

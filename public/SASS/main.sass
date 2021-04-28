@@ -1,6 +1,7 @@
 *
     margin: 0
     padding: 0
+    box-sizing: border-box
 html, body
     height:100%
     background-color: rgb(24, 24, 24)
@@ -22,7 +23,48 @@ header
             img
                 width: 80%
                 height: 6vw
-        .info  
+                cursor: pointer
+        .info
+            display: flex
+            align-items: center
+            .pai
+                background-color: rgba(0, 0, 0, .2)
+                border-radius: 1vw
+                cursor: pointer
+                margin: 0 0 0 67vw
+                width: 13vw
+                height: 80%
+                display: flex
+                align-items: center
+                &:active
+                    background-color: rgba(0, 0, 0, .1)
+                .icons
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    color: #E0E0E0
+                    margin: 0 0 0 .2vw
+                    .iconify
+                        font-size: 4.5vw
+                .score
+                    width: 25vw
+                    height: 100%
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    flex-direction: column
+                    margin: 0 0 0 .2vw
+                    color: #E0E0E0
+                    font-size: 1.2vw
+                    .name
+                        height: 30%
+                        display: flex
+                        align-items: center
+                    .reputation
+                        display: flex
+                        align-items: center
+                        height: 30%
+                        
         .option
             display: flex
             justify-content: center

@@ -35,6 +35,9 @@ app.get('/register', (req,res) => {
 app.get('/Login', (req,res) => {
     res.render('Login');
 });
+app.get('/Accont', (req,res) => {
+    res.render('Accont');
+});
 
 app.get('/', (req,res) => {
     res.render('Home', { page: 'Home' });

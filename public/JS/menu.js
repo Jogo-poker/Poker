@@ -21,11 +21,9 @@ function MenuRetratio(){
         }
     }
 }
-
-function redire(){
+function redire(){  
     redireAccont();
     function redireAccont(){
         window.location.href = "/login";
     }
 }
-

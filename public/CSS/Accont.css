@@ -1,0 +1,42 @@
+section {
+  display: flex;
+  justify-content: center;
+}
+section .pai {
+  height: 38vw;
+  width: 80%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+section .pai .menu {
+  background-color: #21262D;
+  width: 25%;
+  height: 100%;
+}
+section .pai .menu .opt {
+  width: 100%;
+  height: 4vw;
+  margin-bottom: 1vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .pai .menu .opt:hover {
+  border-left: solid 0.3vw;
+  border-right: solid 0.3vw;
+  border-color: #F2F2F2;
+  background-color: #1D2227;
+}
+section .pai .menu .opt span {
+  font-size: 2vw;
+  color: #E0E0E0;
+}
+section .pai .inffo {
+  background-color: #92e82f;
+  width: 75%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=Accont.css.map */
