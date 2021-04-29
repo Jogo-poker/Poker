@@ -11,7 +11,7 @@ html, body {
 
 header .header {
   width: 100%;
-  height: 6vw;
+  height: 5vw;
   background-color: #3b5ba5;
   display: grid;
   grid-template-columns: 1fr 10fr 1.3fr;
@@ -25,8 +25,8 @@ header .header .icon {
   justify-content: center;
 }
 header .header .icon img {
-  width: 80%;
-  height: 6vw;
+  width: 65%;
+  height: 5vw;
   cursor: pointer;
 }
 header .header .info {
@@ -45,6 +45,7 @@ header .header .info .pai {
 }
 header .header .info .pai:active {
   background-color: rgba(0, 0, 0, 0.1);
+  transform: scale(1.1);
 }
 header .header .info .pai .icons {
   display: flex;
@@ -85,12 +86,18 @@ header .header .option {
 header .header .option i {
   display: flex;
   align-items: center;
-  font-size: 4vw;
+  font-size: 3vw;
+  transition: 1s;
 }
-header .header .option i:hover {
+header .header .option:hover > ul {
+  display: block;
+}
+header .header .option:hover > i {
   cursor: pointer;
+  transform: rotate(45deg);
+  color: #fff;
 }
-header .header ul {
+header .header .option ul {
   position: absolute;
   right: 0;
   background-color: #21262D;
@@ -99,9 +106,9 @@ header .header ul {
   height: auto;
   border-radius: 0 0 0 0.6vw;
   display: none;
-  margin: 6vw 0 0 0;
+  margin: 5vw 0 0 0;
 }
-header .header ul li {
+header .header .option ul li {
   width: 100%;
   height: 4vw;
   display: flex;
@@ -110,30 +117,32 @@ header .header ul li {
   font-size: 1.8vw;
   cursor: pointer;
 }
-header .header ul li:hover {
+header .header .option ul li:hover {
   background-color: #1F6FEB;
   color: #ededed;
 }
-header .header ul li:hover > i {
+header .header .option ul li:hover > i {
   color: #ededed;
+  transform: scale(1.2);
 }
-header .header ul li i {
+header .header .option ul li i {
   color: white;
   margin-right: 0.5vw;
+  font-size: 1.8vw;
   color: #1F6BE0;
 }
-header .header ul .Account {
+header .header .option ul .Account {
   border-top: solid 0.2vw rgba(0, 0, 0, 0.3);
   margin-top: 2vw;
 }
-header .header ul .Options {
+header .header .option ul .Options {
   border-bottom: solid 0.2vw rgba(0, 0, 0, 0.3);
 }
-header .header ul .Exit {
+header .header .option ul .Exit {
   border-top: solid 0.2vw rgba(0, 0, 0, 0.3);
   margin-top: 2vw;
 }
-header .header ul .Exit:hover {
+header .header .option ul .Exit:hover {
   border-radius: 0 0 0 0.6vw;
 }
 

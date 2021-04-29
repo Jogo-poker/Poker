@@ -22,21 +22,44 @@ section .pai .menu .opt {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.5s;
 }
 section .pai .menu .opt:hover {
   border-left: solid 0.3vw;
   border-right: solid 0.3vw;
   border-color: #F2F2F2;
-  background-color: #1D2227;
+  box-shadow: 0 0 1vw #000;
 }
 section .pai .menu .opt span {
   font-size: 2vw;
   color: #E0E0E0;
 }
+section .pai .menu .opt_inf {
+  background-color: #1D2227;
+}
 section .pai .inffo {
-  background-color: #92e82f;
+  background-color: #0a2723;
   width: 75%;
   height: 100%;
+}
+section .pai .inffo div {
+  width: 100%;
+  height: 100%;
+}
+section .pai .inf {
+  background-color: #ce178b;
+}
+section .pai .hit {
+  background-color: #b7f01b;
+  display: none;
+}
+section .pai .pri {
+  background-color: #29c2a1;
+  display: none;
+}
+section .pai .amg {
+  background-color: #f21c1c;
+  display: none;
 }
 
 /*# sourceMappingURL=Accont.css.map */

@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/main.css">
     <link rel="stylesheet" type="text/css" href="CSS/{{page}}">
     <script src="JS/menu.js"></script>
+    <script src="JS/accont.js"></script>
     <script src = "https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="https://kit.fontawesome.com/4095fc3d99.js" crossorigin="anonymous"></script>
     <title>Poker_Hub</title>
@@ -15,10 +16,10 @@
     <header>
         <div class="header">
             <div class="icon">
-                <img src="/IMGS/logo_site.png" alt="" onclick="redire()">
+                <img src="/IMGS/logo_site.png" alt="" onclick="redireHome()">
             </div>
             <div class="info">
-                <div class="pai">
+                <div class="pai" onclick="redireAccont()">
                     <div class="icons">
                         <span class="iconify" data-icon="bpmn:user" data-inline="false"></span>
                     </div>
@@ -30,19 +31,19 @@
                             <span>500 Reputação</span>
                         </div>
 
-                    </div>
-                    
+                    </div> 
                 </div>  
             </div>
             <div class="option">
-                <i class="fa fa-bars menu" aria-hidden="true"></i>
+                <i class="fa fa-cog engr" aria-hidden="true"></i>
+                <ul class="menuRetratio">
+                    <li tabindex="0" class="Account" name="Account" onclick="redireLogin()"><i class="fa fa-user-o" aria-hidden="true"></i> Conta</li>
+                    <li tabindex="0" class="Shop" name="Options"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Loja</li>
+                    <li tabindex="0" class="Options" name="Options"><i class="fa fa-cog" aria-hidden="true"></i> Opções</li>
+                    <li tabindex="0" class="Exit" name="Exit"><i class="fa fa-sign-out" aria-hidden="true"></i> Sair</li>
+                </ul>
             </div>
-            <ul class="menuRetratio">
-                <li tabindex="0" class="Account" name="Account" onclick="redire()"><i class="fa fa-user-o" aria-hidden="true"></i> Conta</li>
-                <li tabindex="0" class="Shop" name="Options"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Loja</li>
-                <li tabindex="0" class="Options" name="Options"><i class="fa fa-cog" aria-hidden="true"></i> Opções</li>
-                <li tabindex="0" class="Exit" name="Exit"><i class="fa fa-sign-out" aria-hidden="true"></i> Sair</li>
-            </ul>
+            
         </div>
     </header>
     {{!-- {{#each msg}}
