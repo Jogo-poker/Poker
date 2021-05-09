@@ -27,6 +27,9 @@ app.post('/Login', function(req, res){
 app.get('/', function(req, res){
 	res.render('Home');
 });
+app.get('/App', function(req, res){
+	res.render('Pagina');
+});
 
 app.get('/Jogar', function(req, res){
 	res.render('Jogar');
